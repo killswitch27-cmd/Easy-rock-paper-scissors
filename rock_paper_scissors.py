@@ -19,6 +19,7 @@ def determine_winner(player, computer):
         "p" : "r"
     }
     
+    # If the value of the player is equal to the choice of the computer, player wins
     if winner[player] == computer:
         return "Player WINS!"
     else:
@@ -51,5 +52,4 @@ def play_game():
 
 while True:
     play_game()
-    
     
